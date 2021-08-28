@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+     <style>
+      body
+      {
+        background: url(https://images.unsplash.com/photo-1549697253-e611c570e4f3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80); 
+         background-repeat: no-repeat;
+         background-size: cover;
+         position: absolute;
+         color: black;
+      }
+      .box1
+      {
+          background-color: rgba(255, 255, 255, 0.685);
+          margin-top: 100px;
+          margin-left: 500px;
+          height: 80px;
+          width: 300px;
+          position: absolute;
+          font-family: 'Lobster', cursive;
+          padding: 10px 10px 10px 10px;
+          font-size: 35px;
+          -webkit-backdrop-filter :opacity(30px); 
+            backdrop-filter: blur(3px); 
+      }
+      .stry
+      {
+         margin-top: 200px;
+         margin-left: 40px;
+         height: 600px;
+         width: 600px;
+         font-family: 'Courier New', Courier, monospace;
+         background-color: rgba(43, 42, 42, 0.596);
+         color: rgb(255, 255, 255);
+         display: inline;
+        
+         position: absolute;
+         -webkit-backdrop-filter :opacity(30px); 
+            backdrop-filter: blur(3px); 
+         overflow: auto;
+         font-size: 17px;
+       }
+       .stry::-webkit-scrollbar
+       {
+           width: 10px;
+          
+       }
+       .stry::-webkit-scrollbar-track
+       {
+           width: 15px;
+           background-color: rgba(43, 42, 42, 0.596);
+       }
+       .stry::-webkit-scrollbar-thumb
+       {
+           width: 15px;
+           background-color: rgba(22, 121, 22, 0.555);
+           border-radius: 7px 7px 7px 7px;
+       }
+       .Nam
+       {
+         margin-top: 10px;
+         margin-left: 1050px;
+         position: absolute;
+         height: 60px;
+         width: 60px;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         background-color: rgb(22, 22, 22);
+         color: rgba(253, 253, 253, 0.993);
+         font-size: 50px;
+         
+       }
+       .mail
+       {
+        margin-top: 10px;
+         margin-left: 1150px;
+         position: absolute;
+         height: 60px;
+         width: 60px;
+         color: rgba(253, 253, 253, 0.993);
+         background-color: rgb(22, 22, 22);
+         font-size: 45px;
+         
+       }
+       .insta
+       {
+        margin-top: 10px;
+         margin-left: 1250px;
+         position: absolute;
+         height: 60px;
+         width: 60px;
+         color: rgba(253, 253, 253, 0.993);
+         background-color: rgb(22, 22, 22);
+         font-size: 45px;
+       }
+       .menu
+       {
+        margin-top: 20px;
+         margin-left: 0px;
+         position: absolute;
+         height: 80px;
+         width: 1330px;
+         color: rgba(253, 253, 253, 0.63);
+         background-color: rgba(139, 139, 139, 0.541);
+         font-size: 45px;  
+                
+        }
+        .Image
+        {
+        
+          padding-top: 25px;
+          padding-left: 25px;
+          margin-top: 300px;
+          margin-left: 900px;
+          height: 300px;
+          width:200px;
+         
+          position: absolute;
+        }
+        .mine
+        { 
+          position: absolute;
+          padding-left: 5px;
+         
+          height: 80px;
+          width: 290px;
+          margin-left: 875px;
+          margin-top:9px;
+          background-color: rgba(240, 248, 255, 0.753);
+          color: black;
+          font-family: 'Lobster', cursive;
+        }
+        .gemail
+       {
+         height: 35px;
+         width: 40px;
+         color: rgba(253, 253, 253, 0.993);
+         background-color: rgb(0, 0, 0);
+         font-size: 30px;
+         
+       }
+       .hub
+       {
+        height: 35px;
+         width: 40px;
+         color: rgb(253, 253, 253);
+         background-color: rgb(0, 0, 0);
+         font-size: 30px; 
+       }
+       .Harlem
+       {
+         margin-top: 600px;
+         margin-left: 865px;
+         height: 30px;
+         width: 275px;
+        background-color: aliceblue;
+        color: black;
+        padding: 20px 20px 20px 20px;
+        padding-top: 29px;
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+       }
+      @media screen and (max-width: 500px)
+      {
+        body
+        {
+         height: 570px;
+         width: 500px;
+         overflow: auto;
+        }
+        .menu
+        { 
+          padding-top: 5px;
+          margin-left: 0px;       
+          height: 25px;
+          width: 500px;
+          font-size: 15px;  
+        }
+        .Nam
+        {
+          padding-left: 3px;
+         height: 20px;
+         width: 20px;
+         font-size: 12px;
+         margin-left: 350px;
+         margin-top: 0px;
+        }
+        .mail
+        {
+          padding-left: 3px;
+         height: 20px;
+         width: 20px;
+         font-size: 12px;
+         margin-left: 390px;
+         margin-top: 0px;
+        }
+        .insta
+        {
+          padding-left: 3px;
+         height: 20px;
+         width: 20px;
+         font-size: 12px;
+         margin-left: 430px;
+         margin-top: 0px;
+        }
+        body
+        {
+          background: url(https://images.unsplash.com/photo-1606212419043-dd6f1817cce0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMGxlYWZ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+          background-size:cover; 
+        }
+        .stry
+        {
+          margin-top: 165px;
+          margin-left: 35px;
+          height: 350px;
+         width: 390px;
+          font-size: 15px;
+        }
+        .box1
+        {
+          padding-top: 4px;
+          padding-left: 6px;
+          margin-left: 140px;  
+          margin-top: 50px;
+          height: 50px;
+          width:200px; 
+          font-size: 21px;
+         
+        }
+        .Image
+        {
+          padding-bottom: 25px;
+          padding-right: 20px;
+          
+          margin-top: 600px;
+          height: 150px;
+          width: 90px;
+          margin-left: 50px;
+        }
+        .mine
+        {
+          padding-top: 10px;
+          margin-left: 370px;
+          margin-top: 200px;
+          height: 50px;
+          width: 110px;
+          font-size: 6px;
+        }
+        .gemail
+        {
+          padding-left: 4px;
+          margin-left: 10px;
+          height: 20px;
+          width: 20px;
+          font-size: 10px;
+        }
+        .hub
+        {
+          margin-left: 15px;
+          padding-left: 4px;
+          height: 20px;
+          width: 20px;
+          font-size: 10px;
+        }
+      }
+      
+     </style>
+    </head>
+    <body>
+        <div class="menu">
+        <a href ="https://vacillatingbloggerinarcade.blogspot.com/"><button class="Nam"><i class="fab fa-blogger"></i></button></a>
+        <a href= "https://www.facebook.com/sayantan.mondal.9400/"><button class="mail"><i class="fab fa-facebook"></i></button></a>
+        <a href ="https://instagram.com/raj_deep135?utm_medium=copy_link"><button class="insta"><i class="fab fa-instagram"></i></button></a>
+            
+        <button class="box1"><i class="fas fa-pen-nib"> </i> P O U L O M I<button>
+        </div>
+        
+        
+        <div class="stry">The pleasant monsoon has already struck. Monsoons generally receive the warmest of the welcomes in parched areas suffering from extreme climatic conditions just like our city . As Shakespeare said " as the gentle rain from heaven falls upon the place beneath. It is twice blest" .
+ 
+        The raindrops are clattering down my window pane while I'm writing this ...what a bliss isn't it.? I wish it doesn't become too sultry and damp  this year.  I generally sit beside the window of my dimly lit room and recall different memories and scenarios . As I sit here i recall one of my favourite
+         poems 'stopping by the woods in a snowy evening'. Woods have always appeared mysterious and spellbinding to me. The woods lovely dark and deep .It felt as if far away 
+        in the woods there is a mystical wonderland consisting of fairies , goblins, and animals that can talk. The deep dark woods also seemed to influence the poet who was passing by the woods in a snowy evening.
+        
+        <br><br><br>The snow fell peacefully with glory when suddenly the silence was broken with an approaching sound of herness bells. It was the poet's horse and the poet. The poet was so deeply engrossed into the mysterious beauty of the forest as if it casted a spell on him,  that he almost forget that he was heading 
+        somewhere. His horse confused gave it's harness bells a shake to make the poet aware that it's not the destination where they were supposed to pull off . 
+        The jerking of the bells brought the poet back to reality.  If we comprehend this then we can understand that time is fleeting and beauty is an illusion . Illusions are often beautiful so that they can distract us from our main purposes and passions. Once one finds pleasure in an illusion they 
+        keep getting engrossed and aren't aware of the consequences.  Just like as the night was setting in and the poet had a lot to travel before reaching the destination.
+         
+        <br><br><br>Life is filled with responsibilities and duties that needs to fulfilled . One cannot just shrug off their responsibility and duties . Just as the author said lots of promises to keep and long to go before I sleep. Sleep here means both normal sleep and the eternal sleep. People have certain duties 
+        and promises to fulfill before they go to the grave and they must try execute it perfectly and mustn't take it lightly as time flows fast. Most of the times we 
+        become so distracted that we often forget what duties need to be done. Just as the poet got distracted by the deep ,frosty, beautiful dark woods and the harness bells reminded him of the duties that were still pending for the day. I love this poem.  It seriously had a deep impact on me. I can feel
+        the beauty of the forest and the vibes through the poem, it makes my heart long to visit a snow covered woods . I never get tired of this poem , it relaxes me...
+        with this I see the rain has finally taken a break .....and the earth is smelling fresh and seems replenished .The gentle squalls of cool breeze is strolling my hair locs and I can smell the hue of the wild flowers in my garden...the birds are chirping and shaking the water off their bodies .The street
+        lights just got lit. The streets are empty and completely silent and cool. What a pleasant evening..I would rather take a nap now...byee...
+    </div>
+    <div class="Image"><img src="https://images.unsplash.com/photo-1573728303123-6d984b991947?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y291cGxlJTIwaW4lMjByYWlufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"height="200px" width="170px"></div></body>
+    <div class="Harlem">---HARLEM_RIVER---</div>
+    <div class="mine">*Wanna get your BLOG Page done ready?<br><br>Contact me
+    <a href= "mailto:sayantan02mondal@gmail.com"><button class="gemail"><i class="fab fa-google"></i></button></a>
+    <a href="https://github.com/Abhi-Ambush07"><button class="hub"><i class="fab fa-github-alt"></i></button></a>
+  </div>
+</body>
+</html>
